@@ -12,9 +12,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="#6A6767"
-        android:textColor="#FDECEC"
         android:gravity="center"
-        android:text="Domek w Gorach" />
+        android:padding="10dp"
+        android:text="Domek w Gorach"
+        android:textColor="#FDECEC" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -59,10 +60,12 @@
     </LinearLayout>
 
     <TextView
-        android:id="@+id/textView4"
-        android:layout_width="match_parent"
+        android:id="@+id/textviewPunkty"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_gravity="end"
+        android:text="0 polubien" />
+
     <EditText
         android:id="@+id/editTextText4"
         android:layout_width="match_parent"
